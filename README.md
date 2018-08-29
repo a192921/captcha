@@ -4,8 +4,11 @@ captcha in python
 
 #PIL(Python Imaging Library)
 - 為Python影像處理的擴展庫
-- 需先獨立安裝才能使用：pip install pillow
+- 需先獨立安裝才能使用
 - 模組：Image、ImageChops、ImageColor、ImageDraw、ImagePath、ImageFile、ImageEnhance、PSDraw、ImageFont、ImageFilter、ImageMath、ImagePalette...等。
 引用：https://pillow.readthedocs.io/en/latest/
+由於PIL對Python3.x的支援不是很好，可以改用擴展庫pillow代替：pip install pillow
 
-![](http://upload-images.jianshu.io/upload_images/1874524-b9be15e31c25eba2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![驗證圖片1](https://github.com/a192921/captcha/blob/master/result.jpg)
+![驗證圖片2](https://github.com/a192921/captcha/blob/master/result-1.jpg)
